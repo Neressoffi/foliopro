@@ -18,9 +18,9 @@ const Work = () => {
             <img className='group-hover:scale-125 transition-all duration-500 w-full h-auto' src={Img1} alt='Projet 1' />
             <div className='absolute-bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
               <span className='text-gradient'>Mobile Design</span>
-            </div>
-            <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-500 z-50'>
-              <span className='text-3xl text-white'>Flutter Mobile</span>
+              <a href="https://github.com/Neressoffi/devpwa" className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-500 z-50">
+                <span className='text-3xl text-white'>Progressive App</span>
+              </a>
             </div>
           </div>
           {/* Projet 2 */}
@@ -30,9 +30,9 @@ const Work = () => {
             <div className='absolute-bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
               <span className='text-gradient'>Web Design</span>
             </div>
-            <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-500 z-50'>
+            <a href="https://github.com/Neressoffi/Crud-product" className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-500 z-50'>
               <span className='text-3xl text-white'>React App</span>
-            </div>
+            </a>
           </div>
           {/* Projet 3 */}
           <div className='group relative overflow-hidden border-2 border-white/50 rounded-x1'>
@@ -41,9 +41,9 @@ const Work = () => {
             <div className='absolute-bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
               <span className='text-gradient'>UI/UX Design</span>
             </div>
-            <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-500 z-50'>
+            <a href="https://github.com/Neressoffi/wireframe_tp" className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-500 z-50">
               <span className='text-3xl text-white'>Tailwind CSS</span>
-            </div>
+            </a>
           </div>
         </div>
       </div>
